@@ -1,20 +1,19 @@
 main {
   width: 400vh;
+  margin-bottom: 10px;
 }
 
 body {
-  margin: 10;
+  margin: 10px;
 }
 
 header {
   position: relative;
-
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   background-color: #333; 
-  background-image: url(imagebanner.jpeg);
-  background-position: center;
+  background-image: url(imagebanner.jpeg); 
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px 20px;
@@ -23,7 +22,6 @@ header {
 h4{
 margin: 10px;
 color: rgba(252, 252, 252, 0.537);
-display: inline-block;
 
 }
 
@@ -39,19 +37,16 @@ img {
 
 .navbar {
   display: flex;
-
 }
 
 .navbar-item {
-  display: flex;
-  align-items: safe center ;
+  display: flex; align-items: flex-end; 
   margin-right: 20px;
 }
 
 .white-box {  
   position: absolute;
-  left: 70%;
-  
+  left: 70%;  
   background-color: rgba(249, 249, 249, 0.5);
   width: 140px;
   height: fit-content;
